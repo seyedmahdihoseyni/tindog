@@ -1,0 +1,178 @@
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#title{
+  font-family: "Montserrat";
+  color: #fff;
+}
+.db{
+  margin: 5% 3% 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.lg{
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Ubuntu";
+  margin-right: 5rem;
+}
+
+navbar-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+h1 {
+  size: 6rem;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+
+.title-image{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 40%;
+}
+
+h2{
+  font-weight: bold;
+  color: #fff;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+p{
+  color: #8f8f8f;
+}
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+
+}
+.features-box{
+
+  padding: 7%;
+}
+
+#testimonials{
+  text-align:center;
+  background-color: #ef8172;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.test-image{
+
+  margin: auto;
+}
+.carousel-img{
+  width: 10%;
+  border-radius: 100%;
+}
+#press{
+  text-align:center;
+  background-color: #ef8172;
+  padding: 7%;
+
+}
+
+.press-img{
+  width: 15%;
+  margin: 0 20px;
+}
+.em-test{
+  color: #fff;
+}
+
+/* pricing */
+#pricing{
+  text-align: center;
+  padding: 2% 3%;
+}
+.pricing-h{
+  color: #000;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.pricing-card{
+  padding: 2% 3%;
+}
+
+
+@media (max-width:1028px)
+{
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+#title{
+  text-align: center;
+}
+
+
+}
+
+
+
+/* section-cta */
+
+
+
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+}
+.cta-p{
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.btn-cta{
+  margin: 5% 3%;
+}
+
+
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+  margin: 7% 15%;
+}
+.icon-contact{
+  margin: 30px 20px;
+  font-size: 2rem;
+}
